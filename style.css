@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #a0a0a0;
+  gap: 20px;
+  height: 100vh;
+}
+
+.teclado {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.teclado div {
+  display: flex;
+  justify-content: center;
+}
+
+.tecla {
+  width: 50px;
+  margin: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+}
